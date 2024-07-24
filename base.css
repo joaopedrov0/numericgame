@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Verdana', sans-serif; 
+}
+
+body > *{
+    width: 100%;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55AAAA;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: clamp(300px, 960px, 80vw);
+    height: 700px;
+    box-shadow: 3px 3px 10px rbga(100, 100, 100, 0.5);
+}
